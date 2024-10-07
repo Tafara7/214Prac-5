@@ -5,12 +5,14 @@
 #include <vector>
 
 class DeviceObserver {
+
 public:
     virtual ~DeviceObserver() = default;
     virtual void update() = 0;
 };
 
 class Sensor {
+
 private:
     std::vector<DeviceObserver*> devices;
 
@@ -21,6 +23,7 @@ public:
 };
 
 class MotionSensor : public DeviceObserver {
+    
 private:
     SmartDevice* device;
 
