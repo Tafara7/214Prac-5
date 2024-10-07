@@ -13,7 +13,7 @@ int LegacyThermostat::getLegacyTemperature() {
 }
 
 void LegacyThermostat::setLegacyTemperature(int temp) {
-    currentTemperature = temp;
+    this->currentTemperature = temp;
 }
 
 SmartThermostatIntegrator::SmartThermostatIntegrator(LegacyThermostat* legacyThermostat) {
