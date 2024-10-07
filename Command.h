@@ -5,12 +5,14 @@
 #include "SmartDevice.h"
 
 class Command {
+    
 public:
     virtual ~Command() = default;
     virtual void execute() = 0;
 };
 
 class TurnOffAllLightsCommand : public Command {
+
 private:
     std::vector<SmartDevice*> devices;
 
@@ -20,6 +22,7 @@ public:
 };
 
 class LockAllDoorsCommand : public Command {
+
 private:
     std::vector<SmartDevice*> devices;
 
