@@ -2,7 +2,9 @@
 #include <iostream>
 #include <sstream>
 
-LegacyThermostat::LegacyThermostat() : currentTemperature(22) {} 
+LegacyThermostat::LegacyThermostat() : currentTemperature(22) {
+    
+} 
 
 int LegacyThermostat::getLegacyTemperature() {
     return currentTemperature;
