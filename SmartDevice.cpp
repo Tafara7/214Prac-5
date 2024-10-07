@@ -1,3 +1,5 @@
+//u22565991 - Mr. Tafara Hwata
+//u05169098 - Mr. Devan de Wet 
 #include "SmartDevice.h"
 #include <iostream>
 #include <sstream>
