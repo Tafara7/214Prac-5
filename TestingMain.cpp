@@ -12,7 +12,7 @@ int main() {
     SmartDevice* livingRoomLight = new Light();
     SmartDevice* frontDoorLock = new DoorLock();  
 
-    std::cout << "Smart Device testing" << std::endl;
+    std::cout << "Smart Device testing :" << std::endl;
     // Test initial states
     std::cout << "Initial Light status: " << livingRoomLight->getStatus() << std::endl;
     std::cout << "Initial Door status: " << frontDoorLock->getStatus() << std::endl;
