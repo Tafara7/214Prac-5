@@ -80,5 +80,4 @@ public:
     void unlock();
     bool isLocked() const;
 };
-
 #endif  
