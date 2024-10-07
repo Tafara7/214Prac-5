@@ -1,7 +1,9 @@
 #include "Command.h"
 #include <algorithm>
 
-TurnOffAllLightsCommand::TurnOffAllLightsCommand(const std::vector<SmartDevice*>& devices) : devices(devices) {}
+TurnOffAllLightsCommand::TurnOffAllLightsCommand(const std::vector<SmartDevice*>& devices) : devices(devices) {
+    
+}
 
 void TurnOffAllLightsCommand::execute() {
     for (size_t i = 0; i < devices.size(); ++i) {
