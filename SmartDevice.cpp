@@ -70,7 +70,9 @@ int Thermostat::getTemperature() const {
     return temperature;
 }
 
-DoorLock::DoorLock() : locked(false) {}
+DoorLock::DoorLock() : locked(false) {
+    
+}
 
 std::string DoorLock::getStatus() const {
     return locked ? "locked" : "unlocked";
