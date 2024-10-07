@@ -13,6 +13,7 @@ public:
 };
 
 class SmartThermostatIntegrator : public SmartDevice {
+    
 private:
     LegacyThermostat* legacyThermostat;
 
