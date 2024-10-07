@@ -1,5 +1,4 @@
-#u22565991 - Mr. Tafara Hwata
-#u05169098 - Mr. Devan de Wet 
+
 # Compiler flags
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
